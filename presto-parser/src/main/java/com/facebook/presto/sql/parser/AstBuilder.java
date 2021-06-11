@@ -1663,7 +1663,7 @@ class AstBuilder
 
         return new FunctionCall(
                 getLocation(context),
-                getQualifiedName(context.qualifiedName()),
+                name,
                 window,
                 filter,
                 orderBy,
